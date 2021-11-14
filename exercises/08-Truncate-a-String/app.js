@@ -1,3 +1,3 @@
-function truncateString(string, max) {
-    return max >= string.length ? string : string.slice(0, max) + '....';
+function truncateString(string, num) {
+    return num >= string.length ? string : string.slice(0, num) + '....';
 }

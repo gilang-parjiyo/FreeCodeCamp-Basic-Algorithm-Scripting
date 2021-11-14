@@ -4,7 +4,8 @@ const testPath = {
     2: './solution1.js',
     3: './solution2.js',
     4: './solution3.js',
-    5: './solution4.js'
+    5: './solution4.js',
+    6: './solution5.js',
 }
 
 for (const path in testPath) {

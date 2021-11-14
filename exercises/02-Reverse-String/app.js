@@ -1,8 +1,8 @@
-function reverseString(string) {
-    let reverseString = [];
-    for (let i = 0; i < string.length; i++) {
-        reverseString.unshift(string[i]);
+function reverseString(str) {
+    for (let reverse = [], i = 0; i < str.length; i++) {
+      reverse.unshift(str[i]);
     }
-    reverseString = reverseString.join('');
-    return reverseString;
-}
+    return reverse.join('')
+  }
+  
+  console.log(reverseString("hello"));
